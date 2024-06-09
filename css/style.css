@@ -1,0 +1,117 @@
+body {
+    font-family: 'Montserrat', sans-serif !important;
+    text-align: center;
+    color: #000000 !important;
+    margin: 0 !important;
+    width: 100% !important;
+    padding: 0 !important; 
+
+
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+h1 {
+    font-size: 72px !important;
+}
+h2 {
+    font-size: 48px !important;
+}
+.nav-link {
+    color: #fff;
+
+}
+
+
+.nav-link:hover {
+    color: #ff2020 !important; /* Change this to your desired hover color */
+    font-weight: bold !important;
+}
+
+.hero-custom {
+    margin: 0 !important;
+    height: 100vh !important;
+    padding: 0 !important;
+    width: 100% !important;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Optional for parallax effect */
+    background-repeat: no-repeat;
+
+}
+.hero-custom h1 {
+    font-weight: bold !important;
+}
+
+.header-custom {
+    background-color: #000000; /
+    /*border-bottom-color: #Ffffff; /* Gold border at the bottom */
+}
+
+header .logo img {
+    max-width: 150px;
+}
+
+#hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+#hero p {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    color: #fff
+}
+
+#hero .img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+#about h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#about p {
+    font-size: 1.125rem;
+}
+
+footer .contact-info, footer .social-media {
+    margin-bottom: 1rem;
+}
+
+footer .social-media a {
+    margin: 0 0.5rem;
+    text-decoration: none;
+    color: inherit;
+}
+.about-custom {
+    color: black !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.footer-custom {
+    background-color: #000000;
+    color: #fff;
+}
+.btn {
+    background-color: #000000 !important;
+    border-color: #000 !important;
+}
+
+@media (max-width: 768px) {
+    #hero .row {
+        flex-direction: column;
+    }
+
+    #hero .col-2, #hero .col-8 {
+        width: 100%;
+    }
+
+    #hero .col-2 {
+        margin-bottom: 1rem;
+    }
+} 
